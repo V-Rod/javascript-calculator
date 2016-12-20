@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator JS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css"
+          integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/calculator_js.css">
+</head>
+<body>
+
+<div class="container-fluid" id="box">
+
+    <div id="main-header">
+
+        <h1 class="main-header">JavaScript Calculator</h1>
+
+    </div>
+
+
+    <div class="row" id="display">
+
+        <input type="text" id="displayLeft" size="30" readonly>
+
+        <input type="text" id="displayCenter" size="12" readonly>
+
+        <input type="text" id="displayRight" size="30" readonly>
+
+    </div>
+
+
+    <div class="row-container">
+
+
+        <div class="row">
+            <button value="7" class="btn btn-primary col-md-2 number">7</button>
+
+            <button value="8" class="btn btn-primary col-md-2 number">8</button>
+
+            <button value="9" class="btn btn-primary col-md-2 number">9</button>
+
+            <button value="+"  class="btn btn-primary col-md-3 operations signs">+</button>
+        </div>
+
+
+        <div class="row">
+            <button value="4" class="btn btn-primary col-md-2 number">4</button>
+
+            <button value="5" class="btn btn-primary col-md-2 number">5</button>
+
+            <button value="6" class="btn btn-primary col-md-2 number">6</button>
+
+            <button value="-" class="btn btn-primary col-md-3 operations signs">-</button>
+        </div>
+
+
+        <div class="row">
+            <button value="1" class="btn btn-primary col-md-2 number">1</button>
+
+            <button value="2" class="btn btn-primary col-md-2 number">2</button>
+
+            <button value="3" class="btn btn-primary col-md-2 number">3</button>
+
+            <button value="*" class="btn btn-primary col-md-3 operations signs">x</button>
+        </div>
+
+
+        <div class="row">
+            <button id="clear" class="btn btn-primary col-md-2 operations">C</button>
+
+            <button value="0" class="btn btn-primary col-md-2 number" id="btn0">0</button>
+
+            <button value="=" id="equals" class="btn btn-primary col-md-2 operations">=</button>
+
+            <button value="/" class="btn btn-primary col-md-3 operations signs">/</button>
+
+        </div>
+
+        <div class="row">
+
+            <button id="%" value="%" class="btn btn-primary col-md-2 add-on-operations signs">%</button>
+            <button id="decimalBtn" value="." class="btn btn-primary col-md-2 decimal number">.</button>
+            <button id="sqrt" value="sqrt" class="btn btn-primary col-md-3 add-on-operations signs">sqrRt</button>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+<script src="js/calculator_js.js"></script>
+
+
+</body>
+</html>
